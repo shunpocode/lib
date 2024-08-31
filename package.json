@@ -1,6 +1,6 @@
 {
   "name": "@shunpocode/lib",
-  "version": "1.0.5",
+  "version": "0.0.1",
   "main": "lib.ts",
   "repository": {
     "type": "git",
