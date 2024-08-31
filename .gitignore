@@ -3,7 +3,6 @@
 # Logs
 
 tests/
-libs/
 bun.lockb
 lib.ts
 main.js
