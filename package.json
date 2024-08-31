@@ -1,0 +1,26 @@
+{
+  "name": "@shunpocode/lib",
+  "version": "1.0.5",
+  "main": "lib.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shunpocode/lib.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@shunpocode",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "bun lib.ts",
+    "build": "bun tsc --project tsconfig.build.json && bun tsc --project tsconfig.declaration.json"
+  },
+  "author": "shunpocode",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

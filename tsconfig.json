@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib", // Папка для скомпилированных файлов
+    "lib": ["ESNext", "DOM"], // Включает возможности ES2022 и объекты браузера (например, document, window)
+    "target": "ESNext", // Указывает на генерацию кода совместимого с ES6
+    "module": "ESNext", // Использует ES6 модули (import/export)
+    "moduleDetection": "force",
+    "allowJs": true, // Если нужно работать с JS-файлами вместе с TS
+    "declaration": false, // Если тебе нужны .d.ts файлы
+
+    // Обычный режим для браузеров
+    "moduleResolution": "node", // Разрешение модулей в стиле Node.js
+    "verbatimModuleSyntax": true,
+
+    // Удалить комментарии из скомпилированных JS файлов
+    "removeComments": true,
+
+    // Лучшие практики
+    "strict": true, // Включает строгий режим
+    "skipLibCheck": true, // Пропускает проверку типов в сторонних библиотеках
+    "noFallthroughCasesInSwitch": true, // Предотвращает падение в switch-case
+
+    // Дополнительные строгие флаги
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noPropertyAccessFromIndexSignature": false
+  },
+  "exclude": ["node_modules", "tests", "lib"],
+  "include": ["./**/*.ts"] // Указывает на директорию с исходными файлами TypeScript
+}
