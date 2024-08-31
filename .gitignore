@@ -1,6 +1,17 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
 # Logs
+lib/
+!lib/**/*
+tests
+libs/
+bun.lockb
+lib.ts
+main.js
+package-lock.json
+tsconfig.build.json
+tsconfig.declaration.json
+tsconfig.json
 
 logs
 _.log
