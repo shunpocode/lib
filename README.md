@@ -10,4 +10,4 @@
   bun add @shunpocode/lib@0.0.1
   ```
 
-- ### [DOCUMENTATION](http://github.com)
+- ### [DOCUMENTATION](https://github.com/shunpocode/lib/tree/doc?tab=readme-ov-file)
