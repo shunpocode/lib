@@ -1,15 +1,13 @@
 # lib
 
-To install dependencies:
+- ### Description
+  Библиотека заготовок функций и классов
+- ### To install:
 
-```bash
-bun install
-```
+  ```bash
+  npm install @shunpocode/lib@0.0.1
 
-To run:
+  bun add @shunpocode/lib@0.0.1
+  ```
 
-```bash
-bun run index.js
-```
-
-This project was created using `bun init` in bun v1.1.22. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+- ### [DOCUMENTATION](http://github.com)
